@@ -30,7 +30,7 @@ Berikut adalah beberapa tampilan utama dari **Aplikasi Pengaduan Sarana Sekolah 
 ## 🏠 Landing Page
 
 <p align="center">
-<img src="images/landing-page.png" width="100%">
+<img src="assets/img/landing-page.png" width="100%">
 </p>
 
 Halaman utama yang berisi Hero Section, Fitur, Demo Aplikasi, Statistik, Testimoni, FAQ, Contact Center, dan Footer.
