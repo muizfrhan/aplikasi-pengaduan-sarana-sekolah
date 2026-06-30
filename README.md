@@ -40,7 +40,7 @@ Halaman utama yang berisi Hero Section, Fitur, Demo Aplikasi, Statistik, Testimo
 ## 🔐 Halaman Login
 
 <p align="center">
-<img src="images/login.png" width="100%">
+<img src="assets/img/login.png" width="100%">
 </p>
 
 Fitur:
