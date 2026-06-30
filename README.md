@@ -23,13 +23,34 @@
 
 # 📸 Tampilan Website
 
-> Ganti gambar di bawah dengan screenshot website kamu.
+Berikut adalah beberapa tampilan utama dari **Aplikasi Pengaduan Sarana Sekolah (APSS)**.
+
+---
 
 ## 🏠 Landing Page
 
 <p align="center">
 <img src="images/landing-page.png" width="100%">
 </p>
+
+Halaman utama yang berisi Hero Section, Fitur, Demo Aplikasi, Statistik, Testimoni, FAQ, Contact Center, dan Footer.
+
+---
+
+## 🔐 Halaman Login
+
+<p align="center">
+<img src="images/login.png" width="100%">
+</p>
+
+Fitur:
+- Login Multi Role
+- Captcha
+- Remember Me
+- Show Password
+- Forgot Password
+- Validasi Login
+- SweetAlert2
 
 ---
 
@@ -39,6 +60,14 @@
 <img src="images/dashboard-admin.png" width="100%">
 </p>
 
+Fitur:
+- Statistik Pengaduan
+- Grafik Chart.js
+- Aktivitas Terbaru
+- Realtime Clock
+- Notification Center
+- Quick Action
+
 ---
 
 ## 👨‍🏫 Dashboard Guru
@@ -46,6 +75,13 @@
 <p align="center">
 <img src="images/dashboard-guru.png" width="100%">
 </p>
+
+Fitur:
+- Monitoring Pengaduan
+- Approval Testimoni
+- Kelola Pesan Kontak
+- Export Laporan
+- Dashboard Statistik
 
 ---
 
@@ -55,7 +91,194 @@
 <img src="images/dashboard-user.png" width="100%">
 </p>
 
+Fitur:
+- Dashboard Personal
+- Statistik Pengaduan
+- Status Pengaduan
+- Timeline Progress
+- Quick Access
+
 ---
+
+## 📝 Form Pengaduan
+
+<p align="center">
+<img src="images/form-pengaduan.png" width="100%">
+</p>
+
+Fitur:
+- Upload Foto
+- Pilih Kategori
+- Pilih Ruangan
+- Validasi Form
+- SweetAlert2
+- Preview Upload
+
+---
+
+## 📋 Riwayat Pengaduan
+
+<p align="center">
+<img src="images/riwayat-pengaduan.png" width="100%">
+</p>
+
+Fitur:
+- Timeline Status
+- Detail Pengaduan
+- Search
+- Filter
+- Pagination
+
+---
+
+## 📊 Kelola Data Pengaduan
+
+<p align="center">
+<img src="images/data-pengaduan.png" width="100%">
+</p>
+
+Fitur:
+- CRUD Lengkap
+- Search
+- Filter
+- Pagination
+- Export
+- Print
+
+---
+
+## 🏷️ Kelola Kategori
+
+<p align="center">
+<img src="images/kategori.png" width="100%">
+</p>
+
+CRUD Data Kategori Sarana.
+
+---
+
+## 🏫 Kelola Ruangan
+
+<p align="center">
+<img src="images/ruangan.png" width="100%">
+</p>
+
+CRUD Data Ruangan Sekolah.
+
+---
+
+## 👥 Kelola Pengguna
+
+<p align="center">
+<img src="images/data-user.png" width="100%">
+</p>
+
+Fitur:
+- Admin
+- Guru
+- User
+- Reset Password
+- Role Management
+
+---
+
+## ⭐ Kelola Testimoni
+
+<p align="center">
+<img src="images/testimoni.png" width="100%">
+</p>
+
+Fitur:
+- Approval Testimoni
+- Publish Testimoni
+- Moderasi
+- CRUD
+
+---
+
+## 📞 Kelola Pesan Kontak
+
+<p align="center">
+<img src="images/pesan-kontak.png" width="100%">
+</p>
+
+Fitur:
+- Inbox Pesan
+- Detail Pesan
+- Status Pesan
+- CRUD
+
+---
+
+## 📄 Template Export
+
+<p align="center">
+<img src="images/template-export.png" width="100%">
+</p>
+
+Fitur:
+- Template PDF
+- Template Excel
+- Print
+- Header & Footer
+- Logo Sekolah
+- Watermark
+
+---
+
+## 📑 Export PDF
+
+<p align="center">
+<img src="images/export-pdf.png" width="100%">
+</p>
+
+Laporan PDF dengan desain profesional yang dapat disesuaikan.
+
+---
+
+## 📊 Export Excel
+
+<p align="center">
+<img src="images/export-excel.png" width="100%">
+</p>
+
+Export data ke format Excel sesuai template.
+
+---
+
+## 🖨️ Print Laporan
+
+<p align="center">
+<img src="images/print.png" width="100%">
+</p>
+
+Cetak laporan langsung dari browser.
+
+---
+
+## ⚙️ Pengaturan Sistem
+
+<p align="center">
+<img src="images/pengaturan.png" width="100%">
+</p>
+
+Fitur:
+- Pengaturan Website
+- Landing Page
+- Logo
+- Template
+- Informasi Sekolah
+
+---
+
+## 📱 Tampilan Mobile Responsive
+
+<p align="center">
+<img src="images/mobile.png" width="45%">
+<img src="images/mobile2.png" width="45%">
+</p>
+
+Seluruh halaman telah dioptimalkan agar responsif pada perangkat mobile dan tablet.
 
 # 📖 Tentang Project
 
