@@ -314,7 +314,7 @@ http://localhost/PSK
 
 # 👨‍💻 Developer
 
-**Muiz Farhan**
+**Muhamad Farhan Muizaddin**
 
 Project UKK SMK RPL Paket 3 Tahun 2026
 
