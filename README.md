@@ -33,8 +33,123 @@ Berikut adalah beberapa tampilan utama dari **Aplikasi Pengaduan Sarana Sekolah 
 <img src="assets/img/landing-page.png" width="100%">
 </p>
 
-Halaman utama yang berisi Hero Section, Fitur, Demo Aplikasi, Statistik, Testimoni, FAQ, Contact Center, dan Footer.
+Halaman utama yang menampilkan seluruh informasi penting mengenai **Aplikasi Pengaduan Sarana Sekolah (APSS)** dengan desain modern, responsif, dan interaktif.
 
+---
+
+## 🚀 Hero Section
+
+<p align="center">
+<img src="assets/img/hero.png" width="100%">
+</p>
+
+**Fitur:**
+- Banner utama dengan ilustrasi
+- Call To Action (CTA)
+- Tombol Login & Mulai Pengaduan
+- Animasi modern
+- Responsive
+
+---
+
+## ℹ️ Tentang Aplikasi
+
+<p align="center">
+<img src="assets/img/tentang.png" width="100%">
+</p>
+
+**Berisi informasi mengenai:**
+- Tujuan aplikasi
+- Visi penggunaan
+- Penjelasan sistem
+- Keunggulan aplikasi
+
+---
+
+## ⭐ Fitur Unggulan
+
+<p align="center">
+<img src="assets/img/fitur.png" width="100%">
+</p>
+
+**Fitur yang ditampilkan:**
+- Multi Role Login
+- Pengaduan Online
+- Dashboard Interaktif
+- Export PDF & Excel
+- Notifikasi Realtime
+- Testimoni
+- Contact Center
+
+---
+
+## 🎥 Demo Aplikasi
+
+<p align="center">
+<img src="assets/img/demo.png" width="100%">
+</p>
+
+**Berisi:**
+- Alur penggunaan aplikasi
+- Penjelasan singkat setiap fitur
+- Langkah penggunaan sistem
+
+---
+
+## 📊 Statistik & Testimoni
+
+<p align="center">
+<img src="assets/img/stat-testi.png" width="100%">
+</p>
+
+**Informasi yang ditampilkan:**
+- Total Pengaduan
+- Pengaduan Selesai
+- Pengguna Aktif
+- Testimoni Pengguna
+- Animated Counter
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+<p align="center">
+<img src="assets/img/faq.png" width="100%">
+</p>
+
+**Berisi:**
+- Cara membuat pengaduan
+- Cara melihat status
+- Cara menghubungi admin
+- Pertanyaan umum lainnya
+
+---
+
+## 📞 Contact Center
+
+<p align="center">
+<img src="assets/img/kontak.png" width="100%">
+</p>
+
+**Fitur:**
+- Informasi kontak sekolah
+- Google Maps
+- Form Hubungi Kami
+- Media Sosial
+- Jam Operasional
+
+---
+
+## 📱 Responsive Design
+
+Aplikasi telah dioptimalkan untuk berbagai perangkat:
+
+- 💻 Desktop
+- 💼 Laptop
+- 📱 Smartphone
+- 📟 Tablet
+
+Menggunakan Bootstrap 5 sehingga seluruh tampilan tetap rapi dan nyaman digunakan pada berbagai ukuran layar.
 ---
 
 ## 🔐 Halaman Login
