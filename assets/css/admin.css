@@ -1,0 +1,397 @@
+/* ============================================================
+   Admin Dashboard Styles
+   Aplikasi Pengaduan Sarana Sekolah
+   ============================================================ */
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    background: var(--card);
+    border-right: 1px solid var(--border);
+    z-index: 1040;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 10px;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 16px 16px;
+    margin: 12px 12px 8px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+    animation: sidebarBrandFade 0.3s ease both;
+}
+
+@keyframes sidebarBrandFade {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.sidebar-branding {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+}
+
+.sidebar-logo-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 4px 12px rgba(37,99,235,0.15), 0 0 0 2px rgba(255,255,255,0.8);
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    animation: logoFloat 5s ease-in-out infinite;
+}
+
+@keyframes logoFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+}
+
+.sidebar-logo-img:hover {
+    transform: scale(1.05) rotate(-3deg);
+    box-shadow: 0 8px 24px rgba(37,99,235,0.25), 0 0 0 3px rgba(255,255,255,0.9);
+}
+
+.sidebar-brand-text {
+    min-width: 0;
+    line-height: 1.2;
+}
+
+.sidebar-brand-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.25;
+}
+
+.sidebar-brand-sub {
+    font-size: 11px;
+    color: var(--text-muted);
+    opacity: 0.7;
+    margin-top: 2px;
+    letter-spacing: 0.2px;
+}
+
+[data-bs-theme="dark"] .sidebar-header {
+    background: rgba(30, 41, 59, 0.6);
+    border-color: rgba(255,255,255,0.05);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+[data-bs-theme="dark"] .sidebar-logo-img {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3), 0 0 0 2px rgba(255,255,255,0.05);
+}
+
+[data-bs-theme="dark"] .sidebar-logo-img:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4), 0 0 0 3px rgba(255,255,255,0.08);
+}
+
+.sidebar-toggler {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sidebar-user {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+.sidebar-user img {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.sidebar-user-info h6 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--text);
+}
+
+.sidebar-user-info .badge {
+    font-size: 10px;
+    padding: 3px 8px;
+}
+
+.sidebar-menu {
+    padding: 10px 12px;
+    flex: 1;
+}
+
+.sidebar-menu-header {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    padding: 16px 12px 8px;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 12px;
+    transition: var(--transition);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.sidebar-link i {
+    width: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--text-muted);
+    transition: var(--transition);
+}
+
+.sidebar-link:hover {
+    background: var(--primary-light);
+    color: var(--primary);
+}
+
+.sidebar-link:hover i {
+    color: var(--primary);
+}
+
+.sidebar-link.active {
+    background: var(--primary);
+    color: white;
+}
+
+.sidebar-link.active i {
+    color: white;
+}
+
+.sidebar-link.text-danger:hover {
+    background: rgba(239, 68, 68, 0.1);
+    color: #EF4444;
+}
+
+.sidebar-link.text-danger:hover i {
+    color: #EF4444;
+}
+
+.sidebar-footer {
+    padding: 12px;
+    border-top: 1px solid var(--border);
+}
+
+/* Sidebar Overlay */
+.sidebar-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 1039;
+}
+
+.sidebar-overlay.show {
+    display: block;
+}
+
+/* Top Navbar */
+.top-navbar {
+    padding: 12px 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+}
+
+.top-navbar .search-box .input-group {
+    max-width: 300px;
+}
+
+.top-navbar .search-box .form-control {
+    border: none;
+    background: transparent;
+    font-size: 13px;
+}
+
+.top-navbar .search-box .form-control:focus {
+    box-shadow: none;
+}
+
+/* Page Indicator */
+.page-indicator {
+    padding: 4px 14px 4px 10px;
+    background: var(--primary-light);
+    border-radius: 10px;
+    border: 1px solid rgba(37, 99, 235, 0.12);
+    white-space: nowrap;
+}
+
+.page-indicator-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    background: var(--primary);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+.page-indicator-text {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+[data-bs-theme="dark"] .page-indicator {
+    background: rgba(59, 130, 246, 0.1);
+    border-color: rgba(59, 130, 246, 0.15);
+}
+
+/* Profile Avatar */
+.top-navbar .avatar-sm img {
+    border: 2px solid var(--border);
+    transition: var(--transition);
+}
+
+.top-navbar .avatar-sm img:hover {
+    border-color: var(--primary);
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 260px;
+    min-height: 100vh;
+    background: var(--bg);
+    transition: margin-left 0.3s ease;
+}
+
+/* Page Header */
+.page-header h5 {
+    font-size: 18px;
+}
+
+/* Modal */
+.modal-content {
+    border: none;
+    border-radius: var(--radius);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+    padding: 20px 24px;
+}
+
+.modal-body {
+    padding: 24px;
+}
+
+.modal-footer {
+    padding: 16px 24px;
+}
+
+/* Print Styles */
+@media print {
+    .sidebar, .top-navbar, .sidebar-overlay, #back-to-top, #loading-screen {
+        display: none !important;
+    }
+    .main-content {
+        margin-left: 0 !important;
+    }
+    .glass-card {
+        box-shadow: none !important;
+        border: 1px solid #ddd !important;
+    }
+}
+
+/* Dashboard widget rows */
+.row.g-4 {
+    --bs-gutter-y: 1.5rem;
+}
+
+/* Table responsive fixes */
+.table-responsive {
+    margin: 0;
+}
+
+/* Selection */
+::selection {
+    background: var(--primary);
+    color: white;
+}
+
+/* Scrollbar for the whole page */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+}
+
+/* ---- Sidebar Branding Responsive ---- */
+@media (max-width: 992px) {
+    .sidebar-logo-img { width: 50px; height: 50px; }
+    .sidebar-brand-title { font-size: 13px; }
+    .sidebar-brand-sub { font-size: 10px; }
+    .sidebar-header { padding: 14px 12px; margin: 8px 8px 4px; }
+}
+
+@media (max-width: 576px) {
+    .sidebar-logo-img { width: 46px; height: 46px; }
+    .sidebar-brand-title { font-size: 12px; }
+    .sidebar-header { padding: 12px 10px; margin: 6px 6px 4px; gap: 8px; }
+    .sidebar-branding { gap: 10px; }
+}
